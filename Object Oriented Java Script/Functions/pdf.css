@@ -1,0 +1,546 @@
+.mcard__panel .location--content,
+.mcard__panel__body .other--content,
+.mcard__panel__body .taxes--content,
+.mcard__panel__body__head,
+.mcard__panel__body__row {
+    -webkit-flow: row nowrap;
+    -ms-flow: row nowrap
+}
+
+.page-container__title {
+    width: fit-content;
+    color: #007f00;
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 10px
+}
+
+.location-modal__head-header {
+    height: 16px;
+    width: 150px;
+    color: #666;
+    font-family: Arial MT;
+    font-size: 13px;
+    line-height: normal;
+    margin-bottom: 5px
+}
+
+.location-modal__head.pricing-totals {
+    display: flex;
+    margin-right: 150px;
+}
+
+.pdf-pricing-totals {
+    display: flex;
+    padding: 0px !important;
+}
+
+.location-modal__head-small {
+    height: 38px;
+    color: #159718;
+    font-size: 20px;
+    font-family: Univers\ 55 Roman;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.nv-table {
+    min-width: 25%;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.nv-table td .nv-table-cell-responsive,
+.nv-table th {
+    font-family: "Univers 45 LT", Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    text-align: left;
+    font-weight: 400;
+    color: #007f00;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.nv-table td,
+.nv-table th {
+    padding: 15px;
+}
+
+.button-subtext,
+.offer-table tbody {
+    color: #666;
+    font-family: Arial MT;
+    font-size: 13px;
+    font-weight: 400
+}
+
+.nv-table td {
+    border: 1px dotted #ccc;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: normal;
+}
+
+.no-btm-border {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    vertical-align: bottom
+}
+
+.mcard__header__top--box--val {
+    -webkit-flex: 0 0 40%;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%
+}
+
+.no-top-border {
+    border-top: none !important;
+    padding-top: 0 !important;
+    vertical-align: top
+}
+
+.nv-accordion-section.active .nv-accordion-heading {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #007f00
+}
+
+.nv-accordion-heading {
+    color: #159718 !important;
+    font-family: "Univers 45 LT", Arial, Helvetica, sans-serif;
+    margin: 1px 0 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: normal;
+    padding: 12px 15px;
+    background-color: #f5f5f5;
+    -webkit-transition: background-color .33s;
+    transition: background-color .33s
+}
+
+.nv-accordion-section.active .nv-accordion-content {
+    display: block;
+    border-bottom: 1px solid #ddd
+}
+
+.nv-accordion-content {
+    display: none;
+    padding: 7px 15px 15px;
+    border: 1px solid #ddd;
+    border-width: 0 1px;
+    background-color: #fff;
+    overflow: hidden
+}
+
+.mcard__panel .location--title {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    padding: 28px 0 12px
+}
+
+.mcard__panel .location--title--info__head {
+    color: #666;
+    font-family: Arial MT;
+    font-size: 13px;
+    line-height: normal;
+    font-weight: 400
+}
+
+.mcard__panel .location--content {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -ms-flexbox;
+    flex-flow: row nowrap;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    margin: 0;
+    padding: 4px 0;
+    font-size: 14px
+}
+
+.mcard__panel .location--content--info__text {
+    -webkit-flex: 0 0 40%;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    margin-left: 10%;
+    color: #666;
+    font-family: Arial MT;
+    font-size: 13px;
+    line-height: normal
+}
+
+.mcard__panel__body__head {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -ms-flexbox;
+    flex-flow: row nowrap;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    margin: 0 -100px;
+    padding: 0 100px;
+    height: 75px
+}
+
+.mcard__panel__body__row--cell:first-child {
+    -webkit-flex: 0 0 35%;
+    -ms-flex: 0 0 35%;
+    flex: 0 0 35%;
+    color: #333;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 700
+}
+
+.mcard__panel__body__head--cell:first-child {
+    cursor: pointer;
+    -webkit-flex: 0 0 52%;
+    -ms-flex: 0 0 52%;
+    flex: 0 0 52%;
+    color: #666;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 700
+}
+
+.mcard__panel__body__row--cell:first-child>b {
+    width: 70px;
+    display: inline-block
+}
+
+.mcard__panel__body__row--cell:last-child {
+    -webkit-flex: 0 0 44%;
+    -ms-flex: 0 0 44%;
+    flex: 0 0 44%;
+    font-size: 13px
+}
+
+.mcard__panel__body__row--cell:last-child>b {
+    width: 70px;
+    display: inline-block
+}
+
+.mcard__panel__body__row {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -ms-flexbox;
+    flex-flow: row nowrap;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    padding-bottom: 20px;
+    align-items: center
+}
+
+.mcard__panel__body__head--cell:nth-child(2) {
+    -webkit-flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    color: #666;
+    font-size: 13px
+}
+
+.mcard__panel__body__head--cell--val:first-child,
+.mcard__panel__body__head--cell--val:last-child {
+    font-size: 13px
+}
+
+.mcard__panel__body__head--cell--val b,
+.mcard__panel__body__head--cell:nth-child(2) span>b {
+    width: 74px;
+    display: inline-block
+}
+
+.mcard__panel__body__head--cell:last-child {
+    -webkit-flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    color: #666;
+    font-size: 13px;
+    font-weight: 400
+}
+
+.mcard__panel__body--taxes,
+.mcard__panel__body__head--cell--val:first-child,
+.mcard__panel__body__head--cell--val:last-child {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -ms-flexbox;
+    flex-flow: row nowrap;
+    -webkit-flow: row nowrap;
+    -ms-flow: row nowrap
+}
+
+.mcard__panel__body__head--cell--val {
+    padding: 4px 0;
+    color: #666;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: normal
+}
+
+.mcard__panel__body .taxes {
+    margin: 0 -100px;
+    padding: 0 100px 20px
+}
+
+.mcard__panel__body .taxes--content {
+    margin: 0;
+    padding: 4px 0;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -ms-flexbox;
+    flex-flow: row nowrap;
+    -webkit-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+    -ms-flex-pack: distribute;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    font-size: 13px;
+    color: #666;
+    line-height: normal
+}
+
+.mcard__panel__body .taxes--content--info {
+    color: #666;
+    font-family: Arial MT;
+    font-size: 13px;
+    line-height: normal;
+    -webkit-flex: 0 0 46%;
+    -ms-flex: 0 0 46%;
+    flex: 0 0 46%;
+    padding-left: 50px
+}
+
+.mcard__panel__body .taxes--content--value {
+    color: #666;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: normal;
+    font-weight: 700;
+    -webkit-flex: 0 0 20%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%
+}
+
+.mcard__panel__body .taxes--content--value>b {
+    width: 70px;
+    display: inline-block
+}
+
+.mcard__panel__body .taxes--content--pence {
+    color: #666;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: normal;
+    -webkit-flex: 0 0 18%;
+    -ms-flex: 0 0 18%;
+    flex: 0 0 18%
+}
+
+.mcard__panel__body__other {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -ms-flexbox;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    margin: 0 -100px;
+    padding: 0 100px;
+    height: 75px
+}
+
+.mcard__panel__body__other--cell:first-child {
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-flex: 0 0 52%;
+    -ms-flex: 0 0 52%;
+    flex: 0 0 52%;
+    color: #666
+}
+
+.mcard__panel__body .other {
+    margin: 0 -100px;
+    padding: 0 100px 20px
+}
+
+.mcard__panel__body .taxes--incur {
+    font-size: 13px;
+    color: #666;
+    padding: 4px 0;
+    margin-left: 67px;
+    line-height: normal
+}
+
+.mcard__panel__body .other--content {
+    margin: 0;
+    padding: 4px 0;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -ms-flexbox;
+    flex-flow: row nowrap;
+    -webkit-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+    -ms-flex-pack: distribute;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    font-size: 13px;
+    color: #666;
+    line-height: normal
+}
+
+.mcard__panel__body .other--content--info {
+    color: #666;
+    font-family: Arial MT;
+    font-size: 13px;
+    line-height: normal;
+    -webkit-flex: 0 0 46%;
+    -ms-flex: 0 0 46%;
+    flex: 0 0 46%;
+    padding-left: 50px
+}
+
+.nv-table-wrapper {
+    overflow: scroll
+}
+
+.nv-table {
+    min-width: 25%;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc
+}
+
+.nv-table .nv-table-cell-halign-center {
+    text-align: center
+}
+
+.nv-table .nv-table-cell-halign-left {
+    text-align: left
+}
+
+.nv-table .nv-table-cell-halign-right {
+    text-align: right
+}
+
+.nv-table .nv-table-cell-halign-justify {
+    text-align: justify
+}
+
+.nv-table .nv-table-cell-valign-top {
+    vertical-align: top
+}
+
+.nv-table .nv-table-cell-valign-bottom {
+    vertical-align: bottom
+}
+
+.nv-table .nv-table-cell-valign-center {
+    vertical-align: middle
+}
+
+.nv-table .nv-table-cell-responsive {
+    display: none
+}
+
+.nv-table td,
+.nv-table th {
+    padding: 15px
+}
+
+.nv-table td {
+    border: 1px dotted #ccc;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: normal;
+}
+
+.nv-table img {
+    width: 100%;
+    max-width: 300px
+}
+
+.nv-table .nv-plaintext {
+    margin: 0 0 6px;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto
+}
+
+.nv-table td .nv-table-cell-responsive,
+.nv-table th {
+    background-color: #fff;
+    text-align: left;
+    font-weight: 400;
+    color: #007f00;
+    font-size: 12px;
+    line-height: normal;
+}
+
+.nv-table.nv-table-striped tr:nth-child(odd) td {
+    background: #ffc
+}
+
+.below-space {
+    margin-bottom: 20px;
+}
+
+.pdf-Fueling-location-head {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.top-bottom-space {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-break-before {
+    page-break-before: always;
+}
+
+.compulsory-converted-value {
+    width: 40%;
+    margin-right: 10%;
+    letter-spacing: 0em;
+}
+
+.compulsory-parsed-value {
+    width: 22%;
+    margin-right: 5%;
+    letter-spacing: 0em;
+}
+
+.note-details {
+    color: #666;
+    font-size: 12px;
+    margin-top: 60px;
+}
