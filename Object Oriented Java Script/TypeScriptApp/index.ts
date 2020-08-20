@@ -5,7 +5,7 @@ const url = 'https://jsonplaceholder.typicode.com/todos/1';
 interface Todo {
   id: number;
   title: string;
-  completed: boolean;
+  finished: boolean;
 }
 
 axios.get(url).then((response) => {
@@ -17,7 +17,7 @@ axios.get(url).then((response) => {
 
   const id = todo.id;
   const title = todo.title;
-  const completed = todo.completed;
+  const completed = todo.finished;
 
   console.log(`
   The Todo with ID:${id}

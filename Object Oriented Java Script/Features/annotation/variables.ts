@@ -1,4 +1,4 @@
-let apples: number = 5;
+let apples: number = 8;
 
 let speed: string = 'fast';
 let hasname: boolean = true;
