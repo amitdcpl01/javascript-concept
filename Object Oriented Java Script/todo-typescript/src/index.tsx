@@ -1,9 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
+import { App } from './components/App';
+import { reducers } from './reducers';
 
-interface AppProps {
-  color?: string; // ? because if we donot want to pass color pops in <App>, it make it optional
-}
+const store = createStore(reducers, applyMiddleware(thunk));
+
+// interface AppProps {
+//   color?: string; // ? because if we donot want to pass color pops in <App>, it make it optional
+// }
 
 // // interface AppState {
 // //   counter: number;
@@ -36,8 +43,13 @@ interface AppProps {
 //   }
 // }
 
-const App = (props: AppProps): JSX.Element => {
-  return <div>hello</div>;
-};
+// const App = (props: AppProps): JSX.Element => {
+//   return <div>hello</div>;
+// };
 
-ReactDOM.render(<App color='red' />, document.querySelector('#root'));
+ReactDOM.render(
+  <Provider store={store}>
+    <App></App>
+  </Provider>,
+  document.querySelector('#root')
+);
